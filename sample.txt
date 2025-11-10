@@ -1,0 +1,11 @@
+start 100
+movr ax 05
+mover bx 10
+up: add ax bx
+movem a ='5'
+origin up
+ltorg
+movem b ='7'
+ds a 02
+dc b 10
+end
